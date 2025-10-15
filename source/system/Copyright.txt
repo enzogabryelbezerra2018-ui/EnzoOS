@@ -1,0 +1,15 @@
+Copyright © 2025 Enzo
+
+Todos os direitos reservados.
+
+O enzoOS é um sistema operacional desenvolvido e mantido por Enzo.  
+Nenhuma parte deste software, código-fonte, documentação ou material associado  
+pode ser copiada, modificada, distribuída ou utilizada sem autorização prévia por escrito do autor.
+
+
+Qualquer uso não autorizado poderá resultar em medidas legais conforme as leis de direitos autorais e de propriedade intelectual aplicáveis.
+
+Data de criação: 2025  
+Versão inicial: 1.0
+Autor: Enzo  
+Nome do sistema operacional: enzoOS
