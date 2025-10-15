@@ -1,0 +1,11 @@
+#include IA_app/ia_core.py
+app main{
+textedit[escreva aqui...]
+color = system
+printg("olá {usr}")
+execute = ia_core.py
+}
+colors{
+branca = white
+preta = black
+}
