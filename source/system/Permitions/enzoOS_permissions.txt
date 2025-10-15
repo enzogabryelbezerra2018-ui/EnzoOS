@@ -1,0 +1,11 @@
+root / UID 0: controle total do sistema (criar/ler/escrever/executar qualquer arquivo, alterar contas, kernel, rede).
+- CAP_NET_ADMIN: administração de interfaces de rede, roteamento, firewall (iproute2/iptables).
+- CAP_SYS_ADMIN: “catch-all” de muitas operações administrativas (montagem de sistemas de arquivos, namespaces, loop devices, etc).
+- CAP_DAC_OVERRIDE: ignora checagens normais de permissões de arquivos.
+- CAP_SYS_TIME: alterar o relógio do sistema.
+- CAP_SYS_MODULE: carregar/descarregar módulos do kernel.
+- CAP_AUDIT_CONTROL: controlar o subsistema de auditoria.
+- polkit (PolicyKit): mecanismo para conceder decisões de autorização a processos não-root de forma mais refinada.
+- sudoers: controle sobre quem pode executar comandos como root e com/sem senha.
+- systemd AmbientCapabilities / CapabilityBoundingSet: define capacidades que um serviço pode receber quando executado.
+--------------------------------------------------------------------------------
